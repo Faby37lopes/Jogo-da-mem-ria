@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo da Memória - Emojis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>Jogo da Memória</h1>
+    <p class="attempts">Tentativas: <span id="attemptCount">0</span></p>
+    <button onclick="restartGame()">🔄 Reiniciar</button>
+  </div>
+
+  <div class="game-container"></div>
+
+  <div id="win-message" class="hidden">🎉 Você venceu! 🎉</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
